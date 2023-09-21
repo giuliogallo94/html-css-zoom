@@ -73,3 +73,47 @@ main {
     left: 0;
     font-size: 15px;
 }
+ /* FOOTER */
+ footer {
+    background-color: #222222;
+ }
+
+ .foot {
+    padding: 1rem;
+ }
+.foot a {
+    color: white;
+    font-size: 15px;
+}
+
+ .left-foot {
+    display: flex;
+ }
+
+ .audio {
+    margin-right: 1rem;
+ }
+
+ .foot-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-right: 0.5rem;
+ }
+
+ .foot-icon i {
+    font-size: 30px;
+    margin-bottom: 0.5rem;
+ }
+
+ .foot-icon span {
+    /* margin-top: 5px; */
+    font-size: 15px;
+ }
+
+ .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }

@@ -12,11 +12,14 @@ body {
 .wrapper {
     width: 100%;
     height: 100vh;
-    display: flex; 
-
 }
 /* HEADER */
+/* header {
+    height: 100%;
+} */
+
 .view {
+    /* height: 100%; */
     padding: 0.8rem;
     height: 50px;
     display: flex;
@@ -43,6 +46,7 @@ main {
     margin: 2rem auto;
 }
 .col {
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;   
@@ -78,17 +82,20 @@ main {
     background-color: #222222;
  }
 
- .foot {
-    padding: 1rem;
+.foot {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
  }
 .foot a {
     color: white;
     font-size: 15px;
 }
 
- .left-foot {
+.foot-section {
     display: flex;
- }
+    padding: 1rem;
+}
 
  .audio {
     margin-right: 1rem;
@@ -108,7 +115,6 @@ main {
  }
 
  .foot-icon span {
-    /* margin-top: 5px; */
     font-size: 15px;
  }
 
@@ -117,3 +123,18 @@ main {
     justify-content: center;
     align-items: center;
  }
+ 
+ .green {
+    color: #4bc800;
+ }
+
+.right-foot {
+    background-color: #4a4a4a;
+
+}
+ .red {
+    height: 100%;
+    color: red;
+    display: flex;
+    align-items: center;
+}

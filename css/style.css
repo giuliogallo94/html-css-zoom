@@ -33,6 +33,43 @@ body {
     background-color: #4a4a4a;
     padding: 0.2rem 0.2rem;
     border-radius: 0.3rem;
-    font-size: 17px;
+    font-size: 15px;
     margin-right: 0.4rem
+}
+
+/* MAIN */
+main {
+    width: 90%;
+    margin: 2rem auto;
+}
+.col {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+}
+
+.rectangle  {
+    width: 100%;
+    /* background-color: red; */
+}
+
+.row {
+    background-image: url(https://picsum.photos/200/300);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: calc(100% / 7 - 0.2rem) ;
+    height: 150px;
+    margin-bottom: 0.4rem;
+    position: relative;    
+}
+
+.name {
+    width: fit-content;
+    background-color: #606c79;
+    color: white;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 15px;
 }
